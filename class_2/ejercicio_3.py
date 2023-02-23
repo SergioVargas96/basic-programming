@@ -1,3 +1,4 @@
-numeros = input("DIGITE 5 NUMEROS :")
+numbers = int(input("DIGITE 3 NUMEROS DEL 1 AL 5:"))
 
-print(set(numeros))
+if numbers >= 0 and numbers <= 5:
+    print(numbers)
