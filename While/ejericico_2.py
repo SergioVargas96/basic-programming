@@ -10,12 +10,10 @@ while True:
     except ValueError:
         print("Debe ingresar dos valores enteros y positivos.")
 
-while True:
-    number = num1
-    print(f"Tabla de multiplicar del {num1} hasta el {num2}:")
-    i = 1
-    while i <= num2:
-        resultado = number * i
-        print(f"{number} x {i} = {resultado}")
-        i += 1
-    break
+number = num1
+print(f"Tabla de multiplicar del {num1} hasta el {num2}:")
+i = 1
+while i <= num2:
+    resultado = number * i
+    print(f"{number} x {i} = {resultado}")
+    i += 1
