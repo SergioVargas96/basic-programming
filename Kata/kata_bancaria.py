@@ -41,11 +41,11 @@ def withdraw():
 
 
 def print_statement():
-    saldo_actual = 0
-    print(f"Fecha|| Monto|| Balance")
-    for fecha, monto in transacciones:
-        saldo_actual += monto
-        print(f"{fecha}|| {monto}|| {saldo_actual}")
+    balance = 0
+    print("Fecha\t|| Monto\t|| Balance")
+    for fecha, monto in reversed(transacciones):
+        balance += monto
+        print(f"{fecha}|| {monto}|| {balance}")
 
 
 deposit()
