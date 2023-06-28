@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
-      <change afterPath="$PROJECT_DIR$/Kata/carrito_comprar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kata/carrito_compras1.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kata/carrito_compras1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kata/carrito_compras2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/Kata_bancaria1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kata/Kata_bancaria1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata/carrito_comprar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata/carrito_compras1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kata/ejercicie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Kata/Kata_bancaria1.3.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Kata/carrito_comprar.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Kata/carrito_compras1.1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Kata/carrito_compras1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Kata/ejercicie.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Kata/kata_bancaria.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Kata/kata_bancaria1.2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ciclos/ejercicio_1.py" root0="SKIP_INSPECTION" />
@@ -52,7 +53,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/user/Documents/programacion_basica/basic-programming&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.carrito_compras1.1">
+  <component name="RunManager" selected="Python.carrito_compras1">
     <configuration name="Kata_bancaria1.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="carrito_compras1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="carrito_compras1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/carrito_compras1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/carrito_compras1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kata_bancaria1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="carrito_compras2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/kata_bancaria1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/carrito_compras2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kata_bancaria1.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ejercicie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/kata_bancaria1.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/ejercicie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.carrito_compras1.1" />
+        <item itemvalue="Python.carrito_compras1" />
+        <item itemvalue="Python.carrito_compras2" />
+        <item itemvalue="Python.ejercicie" />
         <item itemvalue="Python.carrito_comprar" />
         <item itemvalue="Python.Kata_bancaria1.3" />
-        <item itemvalue="Python.kata_bancaria1.1" />
-        <item itemvalue="Python.kata_bancaria1.2" />
       </list>
     </recent_temporary>
   </component>
