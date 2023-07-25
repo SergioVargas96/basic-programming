@@ -9,3 +9,8 @@ def test_even_number():
 def test_odd_number():
     result = even_numbers(7)
     assert result == "El número es impar"
+
+
+def test_negative_number():
+    result = even_numbers(-7)
+    assert result == "El numero es negativo"
