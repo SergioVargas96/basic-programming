@@ -5,46 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
-      <change afterPath="$PROJECT_DIR$/course/src/Kata/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/ciclos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/class_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/class_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/class_3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/tests/test_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/course/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/basic-programming.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/Kata_bancaria1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/Kata_bancaria1.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/carrito_compras1.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/carrito_compras1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/carrito_compras2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/carrito_compras2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/carrito_compras30.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/carrito_compras30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/kata_bancaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/kata_bancaria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/kata_bancaria1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/kata_bancaria1.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata/kata_bancaria1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/kata_bancaria1.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclos/ejercicio_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/ciclos/ejercicio_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclos/ejercicio_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/ciclos/ejercicio_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclos/ejericico_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/ciclos/ejericico_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_1/ejercicio1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_1/ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/discounts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_1/ejercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2/ejercicio_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_2/ejercicio_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2/ejercicio_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_2/ejercicio_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2/ejercicio_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_2/ejercicio_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/ejecicio_1_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/ejecicio_1_b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/ejercicio_1_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/ejercicio_1_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/ejercicio_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/ejercicio_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/ejercicio_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/ejercicio_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/ejercicio_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/ejercicio_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_3/if_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_3/if_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/tests/test_discount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/tests/test_ejercice_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/class_1/discounts.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/discounts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/tests/test_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_even_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +62,8 @@
       <recent name="$PROJECT_DIR$/programming/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_class.py">
-    <configuration name="carrito_compras2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_ejercice_4.test_amount_lesser_10">
+    <configuration name="ejercicio4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/src/class_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/carrito_compras2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,49 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="carrito_compras30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="basic-programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/carrito_compras30.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kata_bancaria1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="basic-programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kata/kata_bancaria1.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for course.tests.test_class.test_even_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_discount.test_total" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,25 +94,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;course.tests.test_class.test_even_number&quot;" />
+      <option name="_new_target" value="&quot;test_discount.test_total&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for programming.tests.test_class.test_even_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="basic-programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;programming.tests.test_class.test_even_number&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_class.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ejercice_4.test_amount_20" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,17 +108,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/course/tests/test_class.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_20&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_ejercice_4.test_amount_greater_10_lesser_20" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="basic-programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_greater_10_lesser_20&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_ejercice_4.test_amount_lesser_10" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="basic-programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_lesser_10&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_class.py" />
-        <item itemvalue="Python tests.Python tests for programming.tests.test_class.test_even_number" />
-        <item itemvalue="Python tests.Python tests for course.tests.test_class.test_even_number" />
-        <item itemvalue="Python.carrito_compras30" />
-        <item itemvalue="Python.carrito_compras2" />
+        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_lesser_10" />
+        <item itemvalue="Python.ejercicio4" />
+        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_greater_10_lesser_20" />
+        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_20" />
+        <item itemvalue="Python tests.Python tests for test_discount.test_total" />
       </list>
     </recent_temporary>
   </component>

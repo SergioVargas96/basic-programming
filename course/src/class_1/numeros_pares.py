@@ -3,3 +3,4 @@ def even_numbers(number):
         return "El número es par"
     else:
         return "El número es impar"
+
