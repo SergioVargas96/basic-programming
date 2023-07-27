@@ -15,8 +15,9 @@ def calculate_discount_products(amount, price):
         print("El total a pagar con descuento del 5% es: $", total)
         return discount_5, total
     else:
+        discount = 0
         print("El total a pagar sin descuento es: $", price_total)
-        return price_total
+        return discount, price_total
 
 
 calculate_discount_products(9, 200)

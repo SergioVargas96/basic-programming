@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/ciclos/ejercicio_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/ciclos/ejercicio_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/tests/test_ejercice_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_ejercice_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/tests/test_even_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_even_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/course/src/ciclos/ejercicio_3.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course/src/ciclos/ejericico_2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course/src/class_1/numeros_pares.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/course/tests/test_even_numbers.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/examples.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
   </component>
@@ -59,8 +64,8 @@
       <recent name="$PROJECT_DIR$/programming/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.numeros_pares">
-    <configuration name="ejercicio4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_even_numbers.test_even_number">
+    <configuration name="ejercicio_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/src/class_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/src/ciclos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/src/class_1/ejercicio4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/src/ciclos/ejercicio_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numeros_pares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ejercicio_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/src/class_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course/src/ciclos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/src/class_1/numeros_pares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course/src/ciclos/ejercicio_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ejercice_4.test_amount_20" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ejercice_4.test_amount_greater_20" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +117,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_20&quot;" />
+      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_greater_20&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ejercice_4.test_amount_greater_10_lesser_20" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_even_numbers.test_even_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +131,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_greater_10_lesser_20&quot;" />
+      <option name="_new_target" value="&quot;test_even_numbers.test_even_number&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ejercice_4.test_amount_lesser_10" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_even_numbers.test_negative_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,17 +145,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ejercice_4.test_amount_lesser_10&quot;" />
+      <option name="_new_target" value="&quot;test_even_numbers.test_negative_number&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.numeros_pares" />
-        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_lesser_10" />
-        <item itemvalue="Python.ejercicio4" />
-        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_greater_10_lesser_20" />
-        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_20" />
+        <item itemvalue="Python tests.Python tests for test_even_numbers.test_even_number" />
+        <item itemvalue="Python tests.Python tests for test_ejercice_4.test_amount_greater_20" />
+        <item itemvalue="Python.ejercicio_3" />
+        <item itemvalue="Python.ejercicio_1" />
+        <item itemvalue="Python tests.Python tests for test_even_numbers.test_negative_number" />
       </list>
     </recent_temporary>
   </component>

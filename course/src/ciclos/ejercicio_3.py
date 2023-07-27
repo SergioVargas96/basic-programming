@@ -7,4 +7,4 @@ def multiplication_table(init, end):
             resultado = i * j
             print(f"{i} x {j} = {resultado}")
 
-multiplication_table(1,5)
+multiplication_table(1,2)
