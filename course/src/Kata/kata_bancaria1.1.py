@@ -1,19 +1,19 @@
-class transactions:
+class Transactions:
     def __init__(self, date, amount):
         self.date = date
         self.amount = amount
 
 
-class account:
+class Account:
     def __init__(self):
         self.full_transactions = []
 
     def deposit(self, date, amount):
-        movement = transactions(date, amount)
+        movement = Transactions(date, amount)
         self.full_transactions.append(movement)
 
     def withdraw(self, date, amount):
-        movement = transactions(date, -amount)
+        movement = Transactions(date, -amount)
         self.full_transactions.append(movement)
 
     def print_statement(self):
@@ -24,7 +24,7 @@ class account:
             print(f"{movement.date} || {movement.amount} || {balance}")
 
 
-cuenta_bancaria = account()
+cuenta_bancaria = Account()
 cuenta_bancaria.deposit("10/01/2012", 1000)
 cuenta_bancaria.deposit("13/01/2012", 2000)
 cuenta_bancaria.withdraw("14/01/2012", 500)

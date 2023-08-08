@@ -18,7 +18,6 @@ def deposit():
                 date = datetime.datetime.now().strftime("%d/%m/%Y")
                 transacciones.append((date, monto))
                 print(f"Se ha depositado {monto} correctamente.")
-    print("el valor de la lista es: ", transacciones)
     withdraw()
 
 
