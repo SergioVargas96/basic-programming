@@ -13,3 +13,4 @@ def test_amount_greater_20(amount, price, expected_discount, expected_total):
     discount, total = calculate_discount_products(amount, price)
     assert discount == expected_discount
     assert total == expected_total
+
