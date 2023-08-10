@@ -11,24 +11,32 @@ class Account:
         self.full_transactions = []
 
     def deposit(self, date, amount):
-        movement = Transactions(date, amount)
+        transaction = Transactions(date, amount)
         if amount <= 0:
             print("El monto ingresado no es correcto")
         else:
-            self.full_transactions.append(movement)
+            self.full_transactions.append(transaction)
 
 
     def withdraw(self, date, amount):
-        if amount <= 0 or amount > sum([movement.amount for movement in self.full_transactions]):
+        if amount <= 0 or amount > sum([transaction.amount for transaction in self.full_transactions]):
             print("No tiene fondos suficientes: ")
         else:
-            movement = Transactions(date, -amount)
-            self.full_transactions.append(movement)
+            transaction = Transactions(date, -amount)
+            self.full_transactions.append(transaction)
 
 
     def print_statement(self):
-        balance = 0
-        print("Date || Amount || Balance")
-        for movement in reversed(self.full_transactions):
-            balance += movement.amount
-            print(f"{movement.date} || {movement.amount} || {balance}")
+        balance = self.get_balance()
+        result = [
+            ('Date', 'Amount', 'Balance'),
+        ]
+        for transaction in reversed(self.full_transactions):
+            result.append(
+                (transaction.date, transaction.amount, balance)
+            )
+            balance -= transaction.amount
+        return result
+
+    def get_balance(self):
+        return sum(transaction.amount for transaction in self.full_transactions)

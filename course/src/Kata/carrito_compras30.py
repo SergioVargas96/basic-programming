@@ -7,11 +7,13 @@ class Product:
 
     def calculate_price_per_unit(self):
         price_per_unit = self.cost + (self.cost * self.profit_percentage / 100)
+        print (round(price_per_unit, 2))
         return round(price_per_unit, 2)
 
     def calculate_price_with_tax(self):
         price_per_unit = self.calculate_price_per_unit()
         price_with_tax = price_per_unit + (price_per_unit * self.tax_percentage / 100)
+        print(round(price_with_tax, 2))
         return round(price_with_tax, 2)
 
 
