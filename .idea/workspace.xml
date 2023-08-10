@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
-      <change afterPath="$PROJECT_DIR$/course/tests/test_carrito_compras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/Kata/carrito_compras30.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/carrito_compras30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/Kata/kata_bancaria_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/Kata/kata_bancaria_two.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/tests/test_Kata_bancaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_Kata_bancaria.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +63,7 @@
       <recent name="$PROJECT_DIR$/programming/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Kata_bancaria.test_deposit">
+  <component name="RunManager" selected="Python tests.Python tests in test_Kata_bancaria.py">
     <configuration name="Python tests for test_Kata_bancaria.test_account_print_statement" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +92,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_carrito_compras.test_calculate_price_per_unit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Kata_bancaria.test_deposit_multiple" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +102,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_carrito_compras.test_calculate_price_per_unit&quot;" />
+      <option name="_new_target" value="&quot;test_Kata_bancaria.test_deposit_multiple&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_carrito_compras.test_calculate_price_with_tax" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Kata_bancaria.test_withdraw" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_carrito_compras.test_calculate_price_with_tax&quot;" />
+      <option name="_new_target" value="&quot;test_Kata_bancaria.test_withdraw&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Kata_bancaria.test_deposit" />
         <item itemvalue="Python tests.Python tests in test_Kata_bancaria.py" />
+        <item itemvalue="Python tests.Python tests for test_Kata_bancaria.test_deposit_multiple" />
+        <item itemvalue="Python tests.Python tests for test_Kata_bancaria.test_withdraw" />
+        <item itemvalue="Python tests.Python tests for test_Kata_bancaria.test_deposit" />
         <item itemvalue="Python tests.Python tests for test_Kata_bancaria.test_account_print_statement" />
-        <item itemvalue="Python tests.Python tests for test_carrito_compras.test_calculate_price_per_unit" />
-        <item itemvalue="Python tests.Python tests for test_carrito_compras.test_calculate_price_with_tax" />
       </list>
     </recent_temporary>
   </component>

@@ -11,17 +11,23 @@ params = (
 def test_deposit(date, amount):
     account = Account()
     account.deposit(date, amount)
-    assert len(account.full_transactions) == 1
-    assert account.full_transactions[0].date == date
-    assert account.full_transactions[0].amount == amount
-
-def test_withdraw():
-    account = Account()
-    account.deposit("10/01/2022", 2000)
-    account.deposit("10/01/2022", 2000)
-    account.withdraw("10/01/2022", 1500)
     total = account.get_balance()
-    assert total == 2500
+    assert total == amount
+
+
+params = (
+    ("10/01/2022", 2000, 1500, 2500),
+    ("10/01/2022", 3000, 1000, 5000),
+)
+
+@mark.parametrize('date, amount, withdraw, expected_total', params)
+def test_withdraw(date, amount, withdraw, expected_total):
+    account = Account()
+    account.deposit(date, amount)
+    account.deposit(date, amount)
+    account.withdraw(date, withdraw)
+    total = account.get_balance()
+    assert total == expected_total
 
 def test_deposit_multiple():
     account = Account()
@@ -30,6 +36,8 @@ def test_deposit_multiple():
     account.deposit("10/01/2022", 3500)
     total_deposit = account.get_balance()
     assert total_deposit == 10500
+
+
 
 def test_account_print_statement():
     account = Account()
@@ -43,3 +51,4 @@ def test_account_print_statement():
         ("11/01/2022", 200, 1200),
         ("10/01/2022", 1000, 1000)
     ]
+
