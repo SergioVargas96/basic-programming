@@ -1,4 +1,4 @@
-from course.src.Kata.carrito_compras30 import Product, ShoppingCart
+from course.src.Kata.carrito_compras_end import Product, ShoppingCart
 from pytest import mark
 
 params = (
@@ -11,24 +11,36 @@ params = (
 
 
 @mark.parametrize('name, cost, profit_percentage, tax_percentage, price_per_unit, expected_price_with_tax', params)
-def test_calculate_price(name, cost, profit_percentage, tax_percentage, price_per_unit, expected_price_with_tax):
+def test_calculate_prices(name, cost, profit_percentage, tax_percentage, price_per_unit, expected_price_with_tax):
     product = Product(name, cost, profit_percentage, tax_percentage)
     assert product.calculate_price_per_unit() == price_per_unit
     assert product.calculate_price_with_tax() == expected_price_with_tax
 
 
-params = (
-    ("Iceberg", 1.55, 15, 21),
-    ("Tomato", 0.52, 15, 21),
-    ("Chicken", 1.34, 12, 21),
-)
-
-
-@mark.parametrize('name, cost, profit_percentage, tax_percentage')
-def test_add_product(name, cost, profit_percentage, tax_percentage):
+def test_display_cart():
+    iceberg = Product("Iceberg", 1.55, 15, 21)
+    tomato = Product("Tomato", 0.52, 15, 21)
+    chicken = Product("Chicken", 1.34, 12, 21)
+    bread = Product("Bread", 0.71, 12, 10)
+    corn = Product("Corn", 1.21, 12, 10)
     cart = ShoppingCart()
-    product = Product(name, cost, profit_percentage, tax_percentage)
-    cart.add_product(product)
-    assert name in cart.products
-    assert cart.products[name]['quantity'] == 1
-    assert cart.products[name]['price_with_tax'] == product.calculate_price_with_tax()
+    cart.add_product(iceberg)
+    cart.add_product(iceberg)
+    cart.add_product(tomato)
+    cart.add_product(chicken)
+    cart.add_product(bread)
+    cart.add_product(tomato)
+    cart.add_product(chicken)
+    cart.add_product(bread)
+    cart.add_product(corn)
+    cart.remove_product(iceberg)
+    result = cart.display_cart()
+    assert result == [
+        ("Product name", "Price with VAT", "Quantity"),
+        ("Iceberg", 2.15, 1),
+        ("Tomato", 1.46, 2),
+        ("Chicken", 3.62, 2),
+        ("Bread", 1.76, 2),
+        ("Corn", 1.5, 1),
+        ("total productos:", 8, "Total price:", 17.33)
+    ]
