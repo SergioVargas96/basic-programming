@@ -1,6 +1,7 @@
 from course.src.Kata.carrito_compras_end import Product, ShoppingCart
 from pytest import mark
 
+
 params = (
     ("Iceberg", 1.55, 15, 21, 1.78, 2.15),
     ("Tomato", 0.52, 15, 21, 0.6, 0.73),
