@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
-      <change afterPath="$PROJECT_DIR$/course/tests/test_cata_bancaria_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/tests/test_Kata_bancaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_cata_bancaria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/tests/test_carrito_compras.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/tests/test_carrito_compras.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +36,9 @@
     <setting file="file://$PROJECT_DIR$/course/src/ciclos/ejericico_2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course/src/class_1/numeros_pares.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course/tests/test_carrito_compras.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/course/tests/test_cata_bancaria.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/course/tests/test_cata_bancaria_fixture.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/course/tests/test_even_numbers.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/course/tests/test_kata_bancaria.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/course/tests/test_kata_bancaria_fixture.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/examples.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
   </component>
