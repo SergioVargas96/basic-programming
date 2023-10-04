@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71822af-56fc-4210-a809-36a6b0165967" name="Changes" comment="add ejercice kata">
+      <change afterPath="$PROJECT_DIR$/course/tests/test_carrito_compras_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <recent name="$PROJECT_DIR$/programming/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_discount.test_with_discount">
+  <component name="RunManager" selected="Python tests.Python tests for test_carrito_compras_fixture.test_display_cart">
     <configuration name="Python tests for course.tests.test_kata_bancaria_fixture.test_account_print_statement" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +95,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for course.tests.test_kata_bancaria_fixture.test_deposit_multiple" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_carrito_compras_fixture.test_display_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="basic-programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +105,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;course.tests.test_kata_bancaria_fixture.test_deposit_multiple&quot;" />
+      <option name="_new_target" value="&quot;test_carrito_compras_fixture.test_display_cart&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_carrito_compras_fixture.test_display_cart" />
         <item itemvalue="Python tests.Python tests for test_discount.test_with_discount" />
         <item itemvalue="Python tests.Python tests for course.tests.test_kata_bancaria_fixture.test_deposit" />
         <item itemvalue="Python tests.Python tests in test_kata_bancaria_fixture.py" />
         <item itemvalue="Python tests.Python tests for course.tests.test_kata_bancaria_fixture.test_account_print_statement" />
-        <item itemvalue="Python tests.Python tests for course.tests.test_kata_bancaria_fixture.test_deposit_multiple" />
       </list>
     </recent_temporary>
   </component>
